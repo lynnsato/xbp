@@ -6,15 +6,15 @@
 
 logo img{
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
+    width: 300px;
+    height: 300px;
     object-fit: cover; /* 画像のトリミング */
 }
 
 logotohome img{
     border-radius: 70%;
-    width: 70px;
-    height: 70px;
+    width: 140px;
+    height: 140px;
     object-fit: cover; /* 画像のトリミング */
 }
 
@@ -22,7 +22,7 @@ logotohome img{
 
 /* ========== common ========== */
 html, body {
-	font-size: 16px;
+	font-size: 20px;
 	font-family: sans-serif;
 	color: #393939;
     margin-left: 15px;
@@ -222,11 +222,5 @@ body {
     -webkit-transform: scale(1, 1);
     -ms-transform: scale(1, 1);
     transform: scale(1, 1)
-  }
-  
-
-
-
-
-
+  }     
 
