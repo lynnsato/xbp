@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <!-- ⑥↓タイトルを変えてみよう -->
+    <title>XBP</title>
+    <!-- ⑤スタイルシートの設定をしよう -->
+    <!-- h1.htmlからある行をコピペしてくればOK -->
+    
+    
+</head>
+
+<body>
+  
+    <h1>第一回授業ノート　まとめ</h1><br>
+    <br>
+    <br>
+    <h2>Lチカのプログラム</h2><br>
+<br>
+<h3>ポイント1:setupとloop</h3>
+    void setup() {
+    }　　　　 setup→最初に一回だけ実行されるプログラム<br>
+    void loop() {
+    }　　　　loop→ずっと繰り返し実行されるプログラム<br>
+<br>
+<br>
+<h3>ポイント2:セミコロン</h3>  
+Arduinoでは基本的に命令文の最後には;(セミコロン)をつけます<br>
+<br>
+<br>
+<h3>ポイント3:ピンの設定と出力</h3>
+
+デジタルピン（1〜13）の設定<br>
+・pinMode:指定したピンを入力用に使うのか、出力用に使うのかを設定する<br>
+LEDを点灯させるために13番ピンから電気を流したい（出力したい）場合は、<br>
+pinMode(13,OUTPUT);<br>
+<br>
+・digitalWrite:デジタルピンの出力をLOWかHIGHで設定します。<br>
+LOW→0V<br>
+HIGH→5V<br>
+が出力される。<br>
+digitalWrite(HIGH)でLEDがつく<br>
+digitalWrite(LOW)でLEDが消える<br>
+事になる。<br>
+<br>
+<br>
+<h3>ポイント4:delayで待つ</h3>
+
+delayは指定した時間待つ命令です。<br>
+単位はミリ秒(ms)<br>
+
+delay(1000)→1秒待つ (1000/1000=1)<br>
+delay(100)→0.1秒待つ(100/1000=0.1)<br>
+delay(10)→0.01秒待つ(10/1000=0.01)<br>
+
+
+
+    
+    
+
+
+
+
+  
+   
+   
+
+             
+         
+         
+
+
+   
+
+
+
+         
+         
+
+
+   
+</body>
+</html>
