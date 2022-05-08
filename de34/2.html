@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <!-- ⑥↓タイトルを変えてみよう -->
+    <title>佐藤凜第二回</title>
+    <!-- ⑤スタイルシートの設定をしよう -->
+    <!-- h1.htmlからある行をコピペしてくればOK -->
+    
+    
+</head>
+
+<body>
+  
+    <h1>第二回授業ノート　まとめ</h1><br>
+    <br>
+    <br>
+    <h3>コード</h3>
+
+    <code>
+        <ol style="list-style:decimal-leading-zero outside;in-left:0;padding-left:36px;margin:0;background-color:#EEF;color:#000;">
+        <li style="background-color:#EFF;">#include &lt;Adafruit_NeoPixel.h&gt;</li>
+        <li style="background-color:#EEF;">#define PIN        9 // 信号用のピンを指定</li>
+        <li style="background-color:#EFF;">#define NUMPIXELS 5 // LEDの数を指定</li>
+        <li style="background-color:#EEF;">int brightness=50;//明るさ</li>
+        <li style="background-color:#EFF;"></li>
+        <li style="background-color:#EEF;">Adafruit_NeoPixel pixels(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800);</li>
+        <li style="background-color:#EFF;"></li>
+        <li style="background-color:#EEF;">void setup() {</li>
+        <li style="background-color:#EFF;">&nbsp;&nbsp;pixels.begin(); // NeoPixel出力ピンの初期化</li>
+        <li style="background-color:#EEF;">&nbsp;&nbsp;pixels.setBrightness(brightness);</li>
+        <li style="background-color:#EFF;">}</li>
+        <li style="background-color:#EEF;"></li>
+        <li style="background-color:#EFF;">void loop() {</li>
+        <li style="background-color:#EEF;">&nbsp;&nbsp;pixels.clear(); // すべてのLEDの色を0にセット</li>
+        <li style="background-color:#EFF;"></li>
+        <li style="background-color:#EEF;">&nbsp;&nbsp;for(int i=0; i&lt;NUMPIXELS; i++) {</li>
+        <li style="background-color:#EFF;">&nbsp;&nbsp;&nbsp;&nbsp;int r=random(0,255);</li>
+        <li style="background-color:#EEF;">&nbsp;&nbsp;&nbsp;&nbsp;int g=random(0,255);</li>
+        <li style="background-color:#EFF;">&nbsp;&nbsp;&nbsp;&nbsp;int b=random(0,255);</li>
+        <li style="background-color:#EEF;">&nbsp;&nbsp;&nbsp;&nbsp;pixels.setPixelColor(i, pixels.Color(100, 255, 100));</li>
+        <li style="background-color:#EFF;">&nbsp;&nbsp;&nbsp;&nbsp;pixels.show();</li>
+        <li style="background-color:#EEF;">&nbsp;&nbsp;&nbsp;&nbsp;delay(1000);</li>
+        <li style="background-color:#EFF;">&nbsp;&nbsp;}</li>
+        <li style="background-color:#EEF;">}</li>
+        <li style="background-color:#EFF;"></li>
+        </ol></code>
+        <br>
+        <br>
+        <br>
+        <h2>グループワーク　point of view</h2><br>
+        <img src="images/postit1.jpg" width="50%"><br>
+        <img src="images/postit2.jpg" width="50%"><br>
+        <h2>マイナスの感情＜面接の10分前＞</h2>
+        <img src="images/IMG_0596.JPG" width="50%"><br>
+        
+
+    
+
+
+    
+    
+
+
+
+
+  
+   
+   
+
+             
+         
+         
+
+
+   
+
+
+
+         
+         
+
+
+   
+</body>
+</html>
