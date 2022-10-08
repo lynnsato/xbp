@@ -6,15 +6,15 @@
 
 logo img{
     border-radius: 50%;
-    width: 300px;
-    height: 300px;
+    width: 150px;
+    height: 150px;
     object-fit: cover; /* 画像のトリミング */
 }
 
 logotohome img{
     border-radius: 70%;
-    width: 140px;
-    height: 140px;
+    width: 70px;
+    height: 70px;
     object-fit: cover; /* 画像のトリミング */
 }
 
@@ -22,7 +22,7 @@ logotohome img{
 
 /* ========== common ========== */
 html, body {
-	font-size: 20px;
+	font-size: 16px;
 	font-family: sans-serif;
 	color: #393939;
     margin-left: 15px;
@@ -51,176 +51,4 @@ span.blackback{
     background: #393939;
     color: #efefef;
 }
-
-
-
-
-@import url(https://fonts.googleapis.com/css?family=Bitter);
-    body {
-      margin: 0;
-      font-family: 'Bitter', serif;
-      text-align: center;
-    }
-    .holder,
-    .first,
-    .second,
-    .third {
-      height: 150vh;
-      width: 100vw;
-    }
-    .first,
-    .second,
-    .third {
-      position: absolute;
-    }
-    .second,
-    .third {
-      opacity: 0;
-    }
-    .holder {
-      height: 100vh;
-      position: relative;
-      z-index: 1;
-    }
-    .first {
-      animation: first 10s infinite;
-      background: linear-gradient(#5ff8ca, #60e08c);
-      z-index: 10;
-    }
-      @keyframes first {
-        0% {opacity: 1.0;}
-        10% {opacity: 0.8;}
-        20% {opacity: 0.6;}
-        30% {opacity: 0.4;}
-        40% {opacity: 0.2;}
-        50% {opacity: 0.1;}
-        60% {opacity: 0.2;}
-        70% {opacity: 0.4;}
-        80% {opacity: 0.6;}
-        90% {opacity: 0.8;}
-        100% {opacity: 1.0;}
-      }
-
-    .second {
-      animation: second 10s infinite; animation-delay: 2s;
-      background: linear-gradient(#19eaa6, #00a1f0);
-      z-index: 20;
-    }
-      @keyframes second {
-        0% {opacity: 0;}
-        10% {opacity: 0.2;}
-        20% {opacity: 0.4;}
-        30% {opacity: 0.6;}
-        40% {opacity: 0.8;}
-        50% {opacity: 1.0;}
-        60% {opacity: 0.8;}
-        70% {opacity: 0.6;}
-        80% {opacity: 0.4;}
-        90% {opacity: 0.2;}
-        100% {opacity: 0;}
-      }
-
-    .third {
-      animation: third 10s infinite;
-      animation-delay: 8s;
-      background: linear-gradient(#aab7f8, #ff75c6);
-      z-index: 30;
-    }
-      @keyframes third {
-        0% {opacity: 0;}
-        10% {opacity: 0.2;}
-        20% {opacity: 0.4;}
-        30% {opacity: 0.6;}
-        40% {opacity: 0.8;}
-        50% {opacity: 1.0;}
-        60% {opacity: 0.8;}
-        70% {opacity: 0.6;}
-        80% {opacity: 0.4;}
-        90% {opacity: 0.2;}
-        100% {opacity: 0;}
-      }
-
-    .txt {
-      margin-top: calc(50vh - 43px);
-      position: absolute;
-      width: 100%;
-      z-index: 1000;
-    }
-    h1 {
-      font-size: 40px;
-      font-weight: 400;
-      margin: 0;
-    }
-    p {
-      font-size: 20px;
-      margin-top: 26px;
-    }
-<!--ここまで背景のグラデーション-->
-
-
-
-
-body {
-    background: #00002E;
-    color:#6098FF;
-    font-family:sans-serif;
-    font-size:16px;
-  }
-  h2{
-    font-size:14px;
-    text-transform:uppercase;
-    letter-spacing:3px;
-    margin-top: 70px;
-    margin-bottom:20px;
-  }
-  
-  
-  /* Wrapper Is not Needed| Just for demo purpose.  */
-  .wrapper {
-    margin: 150px auto;
-    text-align: center;
-    width: 100%;
-    position: relative;
-  }
-  
-  .btn, .btn2, .btn3, .btn4, .btn5, .btn6, .btn7, .btn10{
-    padding: 15px 100px;
-    margin:10px 4px;
-    color: #fff;
-    font-family: sans-serif;
-    text-transform: uppercase;
-    text-align: center;
-    position: relative;
-    text-decoration: none;
-    display:inline-block;
-    
-  }
-  
-  .btn::before {
-    content: '';
-    position: absolute;
-    bottom: 50%;
-    left: 0px;
-    width: 100%;
-    height: 1px;
-    background: #6098FF;
-    display: block;
-    -webkit-transform-origin: left top;
-    -ms-transform-origin: left top;
-    transform-origin: left top;
-    -webkit-transform: scale(0, 1);
-    -ms-transform: scale(0, 1);
-    transform: scale(0, 1);
-    -webkit-transition: transform 0.4s cubic-bezier(1, 0, 0, 1);
-    transition: transform 0.4s cubic-bezier(1, 0, 0, 1)
-  }
-  
-  .btn:hover::before {
-    -webkit-transform-origin: right top;
-    -ms-transform-origin: right top;
-    transform-origin: right top;
-    -webkit-transform: scale(1, 1);
-    -ms-transform: scale(1, 1);
-    transform: scale(1, 1)
-  }     
 
