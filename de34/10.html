@@ -1,26 +1,68 @@
-@charset "utf-8";
-/* 冒頭でimport */
-@import url('https://fonts.googleapis.com/css?family=Raleway:700&display=swap');
-@import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c:400,700&display=swap&subset=japanese');
-/* フォントを指定したいところで */
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <!-- ⑥↓タイトルを変えてみよう -->
+    <title>佐藤凜第一回</title>
+    <!-- ⑤スタイルシートの設定をしよう -->
+    <!-- h1.htmlからある行をコピペしてくればOK -->
+    
+    
+</head>
 
-logo img{
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    object-fit: cover; /* 画像のトリミング */
-}
+<body>
+  
+    <ul id="nav">
+        <li class="nav-link">
+            <h1 data-name="home">Home</h1>
+        </li>
+        <li class="nav-link">
+            <h1 data-name="About">About</h1>
+        </li>
+        <li class="nav-link">
+            <h1 data-name="services">services</h1>
+        </li>
+        <li class="nav-link">
+            <h1 data-name="contact">contact</h1>
+        </li>
+    </ul>
+    
+    <!-- ------------ -->
+    <!-- Social links -->
+    <aside class="_social-links">
+        <ul class="_links-list">
+            <li class="_social-link"><a href="https://twitter.com/ggsingla" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+            <li class="_social-link"><a href="https://github.com/ggsingla" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+            <li class="_social-link"><a href="mailto:ggsingla777@gmail.com" target="_blank"><i class="fa-solid fa-at"></i></a></li>
+        </ul>
+    </aside>
 
-logotohome img{
-    border-radius: 70%;
-    width: 70px;
-    height: 70px;
-    object-fit: cover; /* 画像のトリミング */
-}
 
 
 
-/* ========== common ========== */
+
+  
+   
+   
+
+             
+         
+         
+
+
+   
+
+
+
+         
+         
+
+
+   
+</body>
+</html>
+
+<css lang="jp">
+
 :root {
 	--bgcolor: rgb(2, 0, 36);
 }
@@ -35,24 +77,9 @@ body {
 	min-height: 100vh;
 	display: grid;
 	place-items: center;
-	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
-	height: 100vh;
+	background: var(--bgcolor);
 	color: white;
 }
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-}
-
 ul {
 	list-style: none;
 }
@@ -139,4 +166,4 @@ h1:hover::after {
 	font-size: 1.75rem;
 }
 
-/* //////////////////////////// */
+</css>
